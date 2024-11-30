@@ -38,8 +38,8 @@ $r$ is prime, $2^{216}$ has only one factor which is $2$ and $2^{108} - 1$ is an
 3. $\langle x \rangle_{r} = x_3$
 
 ### 4. Put it all together we get the following constraints.
-* $(x_0 + x_1 + x_2)(y_0 + y_1 + y_2) \\ = (k_0 + k_1 + k_2) (p_0 + p_1 + p2) + d_0 + d_1 + d_2$ (modular $2^{108} - 1$)
-* $(x_0y_0 + 2^{108} (x_1y_0 + x_0y_1)) = (k_0p_0 + d_0 + 2^{108} (p_1k_0 + p_0k_1) + d1)$ (modular $2^{216}$)
+* $(x_0 + x_1 + x_2)(y_0 + y_1 + y_2) \\ = (k_0 + k_1 + k_2) (p_0 + p_1 + p_2) + d_0 + d_1 + d_2$ (modular $2^{108} - 1$)
+* $(x_0y_0 + 2^{108} (x_1y_0 + x_0y_1)) = (k_0p_0 + d_0 + 2^{108} (p_1k_0 + p_0k_1) + d_1)$ (modular $2^{216}$)
 * $x_3y_3 = k_3p_3 + d_3$ (modular $r$)
 * $d < p$.
 
